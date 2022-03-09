@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "logo barra" "section section" "aside aside" "footer footer";
+  grid-template-rows: 50px auto auto auto;
+  grid-template-columns: 50px auto; }
+
+#logo {
+  grid-area: logo;
+  background-color: #ffffff;
+  background-position: center;
+  background-size: cover; }
+
+nav {
+  grid-area: barra;
+  background-color: #ffffff;
+  list-style: none;
+  display: flex;
+  justify-content: space-between; }
+
+section {
+  grid-area: section;
+  text-align: center;
+  margin: 5rem;
+  align-self: center; }
+
+aside {
+  grid-area: aside;
+  background-image: url("../imagenes/orquidea.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+  height: 430px;
+  margin: 5rem; }
+
+footer {
+  grid-area: footer;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 100px;
+  font-size: 12px;
+  color: #287777; }
+
+@media screen and (min-width: 480px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: "logo barra barra" "section section aside" "footer footer footer";
+    grid-template-rows: 50px auto 100px;
+    grid-template-columns: 400px auto 720px; } }
+
+body {
+  font-family: 'Shippori Antique B1', sans-serif;
+  background-color: #287777; }
+
+ul {
+  list-style: none; }
+  ul li {
+    margin: 1rem;
+    display: inline-block; }
+    ul li a {
+      color: #287777;
+      text-decoration: none;
+      margin: 1rem; }
+      ul li a:hover {
+        color: #ccc;
+        font-weight: 500; }
+
+#icono {
+  margin-left: 50px;
+  margin-right: 15px; }

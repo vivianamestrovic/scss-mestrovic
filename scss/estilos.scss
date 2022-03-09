@@ -1,0 +1,29 @@
+@import "grilla";
+$color_institucional: #287777;
+
+body {
+    font-family: 'Shippori Antique B1', sans-serif;
+	background-color: $color_institucional;
+}
+
+ul {
+    list-style: none;
+    li {
+        margin: 1rem;
+        display: inline-block;
+        a {
+            color: $color_institucional;
+            text-decoration: none;
+            margin: 1rem;
+            &:hover {
+                color: #ccc;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+#icono {
+    margin-left: 50px;
+    margin-right: 15px;
+}
