@@ -69,6 +69,23 @@ ul {
         color: #ccc;
         font-weight: 500; }
 
+.parrafo-parrafo1 {
+  color: #6dd63c; }
+
+.parrafo-parrafo2 {
+  color: #000000; }
+
+.parrafo-parrafo3 {
+  color: #e1f717; }
+
+.estilo, .estilo--nueva {
+  color: #0c5e50;
+  text-align: center; }
+
+.estilo--nueva {
+  font-size: 16px;
+  color: forestgreen; }
+
 #icono {
   margin-left: 50px;
   margin-right: 15px; }
